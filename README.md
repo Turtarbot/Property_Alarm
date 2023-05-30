@@ -19,8 +19,10 @@ This repository contains a property scraper tool with a Telegram alarm bot. The 
 3. Update the `BOT_TOKEN` variable in the `alarm.py` file with your Telegram Bot Token.
 
 4. Run the `main.py` script with appropriate command-line arguments to configure the scraper. For example:
-```python main.py -c <CHAT_ID> -t 0 -db listings.db -a "https://www.daft.ie/for-rent"```
-Replace `<CHAT_ID>` with the Chat ID of the Telegram chat where you want to receive alarm notifications. Choose the appropriate scraper type (`0` for daft.ie) and specify the path for the database file (`listings.db`) and the property search address.
+   
+   `python main.py -c <CHAT_ID> -t 0 -db listings.db -a "https://www.daft.ie/for-rent"`
+   
+   Replace `<CHAT_ID>` with the Chat ID of the Telegram chat where you want to receive alarm notifications. Choose the appropriate scraper type (`0` for daft.ie) and specify the path for the database file (`listings.db`) and the property search address.
 
 5. The scraper will start scraping the property listings and send alarm notifications to the specified Telegram chat whenever a new listing is found.
 
