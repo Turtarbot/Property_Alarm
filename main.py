@@ -35,7 +35,7 @@ if scraper_type is ScraperType.DAFT_IE:
 elif scraper_type is ScraperType.WILLHABEN_AT:
     pass
 elif scraper_type is ScraperType.IMMOSCOUT_AT:
-    pass
+    from immoscout_at_scraper import scrape
 else:
     pass
 
